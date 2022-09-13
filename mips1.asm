@@ -1,7 +1,7 @@
 .data
-	#number: .byte -1,'2',-3
-	number: .byte 'a','b','c','d', 'e', 11,'f'
-	#soso: .half 17, -2
+	number: .byte -1,'2',-3
+	#number: .byte 'a','b','c','d', 'e', 11,'f'
+	soso: .half 17, -2
 	
 .text
 	li $t0, 0x10010000
