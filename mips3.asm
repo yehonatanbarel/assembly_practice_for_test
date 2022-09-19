@@ -19,6 +19,9 @@
 	li $t0,17
 	blt $t1, $t2, malaga13
 	
+	addi $t8, $0, 2
+	addiu $t9, $t8, 0xffff
+	
 sof:
 
 	# exit prog
